@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="vi-VN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/ff6d44ecaf.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Google font icon -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="./style.css" />
+    <title>Youtube</title>
+  </head>
+
+  <body>
+    <!-- Navbar Starts -->
+    <div class="navBar">
+      <div class="navbar_items">
+        <div class="navbar_item">
+          <div class="navBar_home">
+            <a href="#" id="btn" onclick="toggleHide()"
+              ><i class="material-icons"> menu</i></a
+            >
+          </div>
+          <div class="navBar_logo">
+            <a href="./index.html"
+              ><img
+                src="./Images/logoYT.png"
+                alt="youtube logo"
+                class="navBar_logo_img"
+                style="width: 120px"
+            /></a>
+          </div>
+        </div>
+
+        <div class="navBar_search" id="search_desktop">
+          <form>
+            <input
+              type="text"
+              name=""
+              value=""
+              placeholder="Tìm kiếm"
+              class="navBar_Search_input"
+            />
+          </form>
+          <div>
+            <a href="https://www.youtube.com/"
+              ><i
+                class="material-icons navBar_search_icon"
+                style="font-size: 20px"
+              >
+                search
+              </i></a
+            >
+          </div>
+          <div>
+            <a href="#"
+              ><i class="material-icons navBar_search_mic"> mic </i></a
+            >
+          </div>
+        </div>
+
+        <div class="navBar_icons">
+          <div>
+            <a href="#"><i class="material-icons"> file_upload </i></a>
+          </div>
+          <div>
+            <a href="#"><i class="material-icons"> apps </i></a>
+          </div>
+          <div>
+            <a href="#"><i class="material-icons"> notifications </i></a>
+          </div>
+          <div>
+            <a href="#"
+              ><img
+                src="./Images/unnamed.jpg"
+                alt="user logo"
+                title="Sign in"
+                width="32px"
+                style="border-radius: 50%"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr class="hr_line" />
+    <!-- Navbar ends -->
+
+    <!-- Sidebar Starts -->
+    <div class="core_sidebar">
+      <div class="core_sidebars">
+        <div class="sidebar2" id="full_Sidebar">
+          <div
+            class="sidebar_icons2"
+            style="padding-top: 15px; background-color: rgb(231, 231, 231)"
+          >
+            <!-- Icon0 -->
+
+            <div style="color: red" class="sidebar_icon2">
+              <a href="./index.html"
+                ><i class="material-icons" style="color: red"> home </i></a
+              >
+            </div>
+            <div class="sidebar_nav">
+              <p>Trang chủ</p>
+            </div>
+          </div>
+
+          <!-- icon1 -->
+          <div class="sidebar_icons2">
+            <div class="sidebar_icon2">
+              <a href="#"><i class="material-icons"> explore </i></a>
+            </div>
+            <div class="sidebar_nav">
+              <p>Khám phá</p>
+            </div>
+          </div>
+
+          <!-- icon2 -->
+          <div class="sidebar_icons2">
+            <div class="sidebar_icon2">
+              <a href="#"><i class="material-icons"> subscriptions </i></a>
+            </div>
+            <div class="sidebar_nav">
+              <p>Kênh đăng kí</p>
+            </div>
+          </div>
+
+          <hr />
+          <!-- icon3 -->
+          <div class="sidebar_icons2">
+            <div class="sidebar_icon2">
+              <a href="#"><i class="material-icons"> video_library </i></a>
+            </div>
+            <div class="sidebar_nav">
+              <p>Thư viện</p>
+            </div>
+          </div>
+
+          <!-- icon4 -->
+          <div class="sidebar_icons2">
+            <div class="sidebar_icon2">
+              <a href="#"><i class="material-icons"> history </i></a>
+            </div>
+            <div class="sidebar_nav">
+              <p>Video đã xem</p>
+            </div>
+          </div>
+
+          <!-- icon5 -->
+          <div class="sidebar_icons2">
+            <div class="sidebar_icon2">
+              <a href="#"><i class="material-icons"> watch_later </i></a>
+            </div>
+            <div class="sidebar_nav">
+              <p>Xem sau</p>
+            </div>
+          </div>
+
+          <!-- icon6 -->
+          <div class="sidebar_icons2">
+            <div class="sidebar_icon2">
+              <a href="#"><i class="material-icons"> thumb_up </i></a>
+            </div>
+            <div class="sidebar_nav">
+              <p>Video đã thích</p>
+            </div>
+          </div>
+          <hr />
+
+          <!-- icon7 -->
+          <p style="color: gray; margin-left: 38px; margin-top: 12px">
+            <strong>DỊCH VỤ KHÁC CỦA</strong><br/>
+            <strong>YOUTUBE</strong>
+          </p>
+          <div class="sidebar_icons2">
+            <div class="sidebar_icon2">
+              <a href="#"><i class="material-icons"> play_circle_filled </i></a>
+            </div>
+            <div class="sidebar_nav">
+              <p>YouTube Premium</p>
+            </div>
+          </div>
+
+          <!-- icon8 -->
+          <div class="sidebar_icons2">
+            <div class="sidebar_icon2">
+              <a href="#"><i class="material-icons"> theaters </i></a>
+            </div>
+            <div class="sidebar_nav">
+              <p>Xem phim</p>
+            </div>
+          </div>
+          <hr />
+
+          <!-- icon9 -->
+          <p style="color: gray; margin-left: 38px; margin-top: 12px">
+            <strong>KHÁM PHÁ</strong>
+          </p>
+
+          <div class="sidebar_icons2">
+            <div class="sidebar_icon2">
+              <a href="#"><i class="material-icons"> sports_esports </i></a>
+            </div>
+            <div class="sidebar_nav">
+              <p>Trò chơi</p>
+            </div>
+          </div>
+
+          <!-- icon10 -->
+          <div class="sidebar_icons2">
+            <div class="sidebar_icon2">
+              <a href="#"><i class="material-icons"> emoji_events </i></a>
+            </div>
+            <div class="sidebar_nav">
+              <p>Thể thao</p>
+            </div>
+          </div>
+          <hr />
+
+          <!-- icon11 -->
+          <div class="sidebar_icons2">
+            <div class="sidebar_icon2">
+              <a href="#"><i class="material-icons"> settings </i></a>
+            </div>
+            <div class="sidebar_nav">
+              <p>Cài đặt</p>
+            </div>
+          </div>
+
+          <!-- icon12 -->
+          <div class="sidebar_icons2">
+            <div class="sidebar_icon2">
+              <a href="#"><i class="material-icons"> assistant_photo </i></a>
+            </div>
+            <div class="sidebar_nav">
+              <p>Nhật kí báo cáo</p>
+            </div>
+          </div>
+
+          <!-- icon13 -->
+          <div class="sidebar_icons2">
+            <div class="sidebar_icon2">
+              <a href="#"><i class="material-icons"> contact_support </i></a>
+            </div>
+            <div class="sidebar_nav">
+              <p>Trợ giúp</p>
+            </div>
+          </div>
+      </div>       
+    <!-- Sidebar Ends -->
+
+    <!-- ON CLICK SIDEBAR STARTS -->
+      <div class="sidebar" id="sidebar">
+          <div class="sidebar_icons">
+            <div style="color: red" class="sidebar_icon">
+              <a href="#"
+                ><i class="material-icons" style="color: red"> home </i></a
+              >
+              <p style="font-size: 10px">
+                <a href="./index.html">Trang chủ</a>
+              </p>
+            </div>
+            <div class="sidebar_icon">
+              <a href="#"><i class="material-icons"> explore </i></a>
+              <p style="font-size: 10px">Khám phá</p>
+            </div>
+
+            <div class="sidebar_icon">
+              <a href="#"><i class="material-icons"> subscriptions </i></a>
+              <p style="font-size: 10px">Kênh đăng kí</p>
+            </div>
+
+            <div class="sidebar_icon">
+              <a href="./index.html"
+                ><i class="material-icons"> video_library </i></a
+              >
+              <p style="font-size: 10px">Thư viện</p>
+            </div>
+          </div>
+        </div>
+        </div>
+      <!-- ON CLICK SIDEBAR Ends -->
+
+      <!-- Video Suggestions starts -->
+      <div class="bodyVideoSuggestions">
+        <div class="videoSuggestions">
+          <div class="video_suggestion">
+            <a
+              href="./index.html"
+              class="video_suggestion_tag"
+              style="color: white; background-color: black"
+              >Tất cả</a
+            >
+          </div>
+
+          <div class="video_suggestion">
+            <a href="#" class="video_suggestion_tag">Âm nhạc</a>
+          </div>
+
+          <div class="video_suggestion">
+            <a href="#" class="video_suggestion_tag">Trực tiếp</a>
+          </div>
+          <div class="video_suggestion">
+            <a href="#" class="video_suggestion_tag">Trò chơi</a>
+          </div>
+
+          <div class="video_suggestion">
+            <a href="#" class="video_suggestion_tag">Hoạt họa</a>
+          </div>
+
+          <div class="video_suggestion">
+            <a href="#" class="video_suggestion_tag">Thiên nhiên</a>
+          </div>
+
+          <div class="video_suggestion">
+            <a href="#" class="video_suggestion_tag">Du lịch</a>
+          </div>
+
+          <div class="video_suggestion">
+            <a href="#" class="video_suggestion_tag">Mới tải lên gần đây</a>
+          </div>
+        </div>
+        <!-- Video Suggestions Ends -->
+
+        <!-- Video List Starts -->
+        <div class="videos_list">
+          <div class="videos">
+            <!-- Video -->
+            <div class="single_video">
+              <div class="video_thumbnail">
+                <div>
+                  <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/DHvZLI7Db8E"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <p class="video_time">11:30</p>
+              </div>
+
+              <div class="video_details">
+                <div class="channel_img">
+                  <img src="./Images/logo.png" alt="channel logo" />
+                </div>
+                <div class="video_title">
+                  <h4>How The The System Works in Backend</h4>
+                  <p>
+                    JavaScript Masterych
+                    <span class="material-icons" style="font-size: 14px"> check_circle </span>
+                  </p>
+                  <p>1.2 Tr lượt xem • 2 tuần trước</p>
+                </div>
+              </div>
+            </div>
+            <!-- Video -->
+            <div class="single_video">
+              <div class="video_thumbnail">
+                <div>
+                  <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/DHvZLI7Db8E"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <p class="video_time">11:30</p>
+              </div>
+
+              <div class="video_details">
+                <div class="channel_img">
+                  <img src="./Images/logo.png" alt="channel logo" />
+                </div>
+                <div class="video_title">
+                  <h4>How The The System Works in Backend</h4>
+                  <p>
+                    JavaScript Masterych
+                    <span class="material-icons" style="font-size: 14px"> check_circle </span>
+                  </p>
+                  <p>1.2 Tr lượt xem • 2 tuần trước</p>
+                </div>
+              </div>
+            </div>
+            <!-- Video -->
+            <div class="single_video">
+              <div class="video_thumbnail">
+                <div>
+                  <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/DHvZLI7Db8E"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <p class="video_time">11:30</p>
+              </div>
+
+              <div class="video_details">
+                <div class="channel_img">
+                  <img src="./Images/logo.png" alt="channel logo" />
+                </div>
+                <div class="video_title">
+                  <h4>How The The System Works in Backend</h4>
+                  <p>
+                    JavaScript Masterych
+                    <span class="material-icons" style="font-size: 14px"> check_circle </span>
+                  </p>
+                  <p>1.2 Tr lượt xem • 2 tuần trước</p>
+                </div>
+              </div>
+            </div>
+            <!-- Video -->
+            <div class="single_video">
+              <div class="video_thumbnail">
+                <div>
+                  <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/DHvZLI7Db8E"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <p class="video_time">11:30</p>
+              </div>
+
+              <div class="video_details">
+                <div class="channel_img">
+                  <img src="./Images/logo.png" alt="channel logo" />
+                </div>
+                <div class="video_title">
+                  <h4>How The The System Works in Backend</h4>
+                  <p>
+                    JavaScript Masterych
+                    <span class="material-icons" style="font-size: 14px"> check_circle </span>
+                  </p>
+                  <p>1.2 Tr lượt xem • 2 tuần trước</p>
+                </div>
+              </div>
+            </div>
+            <!-- Video -->
+            <div class="single_video">
+              <div class="video_thumbnail">
+                <div>
+                  <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/DHvZLI7Db8E"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <p class="video_time">11:30</p>
+              </div>
+
+              <div class="video_details">
+                <div class="channel_img">
+                  <img src="./Images/logo.png" alt="channel logo" />
+                </div>
+                <div class="video_title">
+                  <h4>How The The System Works in Backend</h4>
+                  <p>
+                    JavaScript Masterych
+                    <span class="material-icons" style="font-size: 14px"> check_circle </span>
+                  </p>
+                  <p>1.2 Tr lượt xem • 2 tuần trước</p>
+                </div>
+              </div>
+            </div>
+            <!-- Video -->
+            <div class="single_video">
+              <div class="video_thumbnail">
+                <div>
+                  <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/DHvZLI7Db8E"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <p class="video_time">11:30</p>
+              </div>
+
+              <div class="video_details">
+                <div class="channel_img">
+                  <img src="./Images/logo.png" alt="channel logo" />
+                </div>
+                <div class="video_title">
+                  <h4>How The The System Works in Backend</h4>
+                  <p>
+                    JavaScript Masterych
+                    <span class="material-icons" style="font-size: 14px"> check_circle </span>
+                  </p>
+                  <p>1.2 Tr lượt xem • 2 tuần trước</p>
+                </div>
+              </div>
+            </div>
+            <!-- Video -->
+            <div class="single_video">
+              <div class="video_thumbnail">
+                <div>
+                  <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/DHvZLI7Db8E"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <p class="video_time">11:30</p>
+              </div>
+
+              <div class="video_details">
+                <div class="channel_img">
+                  <img src="./Images/logo.png" alt="channel logo" />
+                </div>
+                <div class="video_title">
+                  <h4>How The The System Works in Backend</h4>
+                  <p>
+                    JavaScript Masterych
+                    <span class="material-icons" style="font-size: 14px"> check_circle </span>
+                  </p>
+                  <p>1.2 Tr lượt xem • 2 tuần trước</p>
+                </div>
+              </div>
+            </div>
+            <!-- Video -->
+            <div class="single_video">
+              <div class="video_thumbnail">
+                <div>
+                  <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/DHvZLI7Db8E"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <p class="video_time">11:30</p>
+              </div>
+
+              <div class="video_details">
+                <div class="channel_img">
+                  <img src="./Images/logo.png" alt="channel logo" />
+                </div>
+                <div class="video_title">
+                  <h4>How The The System Works in Backend</h4>
+                  <p>
+                    JavaScript Masterych
+                    <span class="material-icons" style="font-size: 14px"> check_circle </span>
+                  </p>
+                  <p>1.2 Tr lượt xem • 2 tuần trước</p>
+                </div>
+              </div>
+            </div> 
+            <!-- Video -->
+            <div class="single_video">
+              <div class="video_thumbnail">
+                <div>
+                  <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/DHvZLI7Db8E"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <p class="video_time">11:30</p>
+              </div>
+
+              <div class="video_details">
+                <div class="channel_img">
+                  <img src="./Images/logo.png" alt="channel logo" />
+                </div>
+                <div class="video_title">
+                  <h4>How The The System Works in Backend</h4>
+                  <p>
+                    JavaScript Masterych
+                    <span class="material-icons" style="font-size: 14px"> check_circle </span>
+                  </p>
+                  <p>1.2 Tr lượt xem • 2 tuần trước</p>
+                </div>
+              </div>
+            </div>                                                                                 
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Video List Ends -->
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
